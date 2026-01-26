@@ -13,11 +13,11 @@ export default function Portfolio() {
       location: "State College, Pennsylvania",
       period: "Jan 2026 - Present",
       logo: "/images-2.jpeg",
-      description: "Description of your role and responsibilities.",
+      description: "Supported undergraduate computer engineering courses by assisting with grading, exam proctoring, and student learning support. Worked closely with course instructors to ensure consistent evaluation standards and to help students strengthen their understanding of core networking and systems concepts.",
       achievements: [
-        "Achievement or responsibility 1",
-        "Achievement or responsibility 2",
-        "Achievement or responsibility 3"
+        "Assisted in grading programming assignments, quizzes, and exams, ensuring accuracy and consistency across multiple course sections",
+        "Proctored midterm and final examinations while enforcing academic integrity policies",
+        "Held office hours and provided one-on-one support to help students debug code and clarify networking fundamentals such as IP addressing, routing, and protocol behavior"
       ]
     },
     {
@@ -26,10 +26,11 @@ export default function Portfolio() {
       location: "Kuala Lumpur, Malaysia",
       period: "May 2025 - August 2025",
       logo: "/images.png",
-      description: "Description of your role and responsibilities.",
+      description: "Worked with the Network Engineering team to support enterprise network infrastructure across banking systems. Gained hands-on exposure to network operations, documentation, and troubleshooting in a large-scale financial environment.",
       achievements: [
-        "Achievement or responsibility 1",
-        "Achievement or responsibility 2"
+        "Assisted in configuring and maintaining routers and switches using Cisco CLI in a production banking network environment",
+        "Documented network topology, IP addressing schemes, and device configurations for internal operational use",
+        "Supported network troubleshooting and monitoring tasks, helping ensure system availability and reliability across critical services"
       ]
     }
   ];
