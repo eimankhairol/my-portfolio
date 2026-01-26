@@ -25,7 +25,7 @@ export default function Portfolio() {
       company: "CIMB Group Tech & Data",
       location: "Kuala Lumpur, Malaysia",
       period: "May 2025 - August 2025",
-      logo: "/images.png",
+      logo: `${import.meta.env.BASE_URL}images.png`,
       description: "Worked with the Network Engineering team to support enterprise network infrastructure across banking systems. Gained hands-on exposure to network operations, documentation, and troubleshooting in a large-scale financial environment.",
       achievements: [
         "Assisted in configuring and maintaining routers and switches using Cisco CLI in a production banking network environment",
@@ -42,9 +42,9 @@ export default function Portfolio() {
       tech: ["Python", "Django", "REST APIs", "PostgreSQL", "Cloud Deployment"],
       gradient: "from-purple-500 to-pink-500",
       images: [
-        "/django-app-home-page.png",
-        "/_GvV9L37g7K.blob.avif",
-        "/_UrU2R8hbGY.blob.avif"
+        `${import.meta.env.BASE_URL}django-app-home-page.png`,
+        `${import.meta.env.BASE_URL}_GvV9L37g7K.blob.avif`,
+        `${import.meta.env.BASE_URL}_UrU2R8hbGY.blob.avif`
       ],
       detailedDescription: "This project focuses on designing and implementing a scalable backend system to manage real-time device handover and monitoring across distributed IoT components. The system processes high-frequency telemetry data from multiple devices, tracks handover events between gateways, and maintains consistent device state in near real time. A Django-based backend and web dashboard were developed to ingest, process, and visualize live metrics such as signal strength, connectivity status, and handover history. The architecture emphasizes reliability, efficient data flow, and system stability under frequent updates, enabling effective monitoring and debugging of device behavior in a distributed environment. The project was recognized with 2nd Place at the International oneM2M Hackathon for its real-time handover design and system architecture.",
       features: ["Real-time device and gateway monitoring", "Device handover tracking across distributed nodes", "Live telemetry visualization and dashboards", "Backend APIs for device state and event management", "Scalable data ingestion for high-frequency updates"],
@@ -54,34 +54,6 @@ export default function Portfolio() {
         { label: "Hackster Article", url: "https://www.hackster.io/540749/onem2m-hackathon-team-pennstatenitannylions-2025-9935d2"}
       ]
     },
-    {
-      title: "Distributed Task Queue System",
-      description: "High-performance message queue handling 10M+ tasks daily with automatic scaling.",
-      tech: ["Go", "Redis", "Kubernetes", "gRPC"],
-      gradient: "from-blue-500 to-cyan-500",
-      images: [
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=600&fit=crop"
-      ],
-      detailedDescription: "Microservices-based task queue system designed for high throughput and reliability. Implements exponential backoff, dead letter queues, and distributed tracing. Deployed across multiple regions with automatic failover.",
-      features: ["10M+ daily tasks", "Auto-scaling workers", "Distributed tracing", "99.99% uptime"],
-      link: "https://github.com/eimankhairol"
-    },
-    {
-      title: "Cloud-Based Web Application",
-      description: "Scalable web platform with cloud infrastructure and modern DevOps practices.",
-      tech: ["React", "Node.js", "AWS", "Docker"],
-      gradient: "from-orange-500 to-red-500",
-      images: [
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=600&fit=crop"
-      ],
-      detailedDescription: "Full-stack web application deployed on AWS with containerized microservices. Implements CI/CD pipelines, auto-scaling infrastructure, and comprehensive monitoring for high availability and performance.",
-      features: ["AWS infrastructure", "Docker containers", "CI/CD pipeline", "Auto-scaling"],
-      link: "https://github.com/eimankhairol"
-    }
   ];
 
   const skills = [
