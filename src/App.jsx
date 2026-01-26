@@ -12,7 +12,7 @@ export default function Portfolio() {
       company: "Penn State College of Engineering",
       location: "State College, Pennsylvania",
       period: "Jan 2026 - Present",
-      logo: "/images-2.jpeg",
+      logo: `${import.meta.env.BASE_URL}images-2.jpeg`,
       description: "Supported undergraduate computer engineering courses by assisting with grading, exam proctoring, and student learning support. Worked closely with course instructors to ensure consistent evaluation standards and to help students strengthen their understanding of core networking and systems concepts.",
       achievements: [
         "Assisted in grading programming assignments, quizzes, and exams, ensuring accuracy and consistency across multiple course sections",
