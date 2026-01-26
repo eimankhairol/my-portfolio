@@ -49,7 +49,7 @@ export default function Portfolio() {
       detailedDescription: "This project focuses on designing and implementing a scalable backend system to manage real-time device handover and monitoring across distributed IoT components. The system processes high-frequency telemetry data from multiple devices, tracks handover events between gateways, and maintains consistent device state in near real time. A Django-based backend and web dashboard were developed to ingest, process, and visualize live metrics such as signal strength, connectivity status, and handover history. The architecture emphasizes reliability, efficient data flow, and system stability under frequent updates, enabling effective monitoring and debugging of device behavior in a distributed environment. The project was recognized with 2nd Place at the International oneM2M Hackathon for its real-time handover design and system architecture.",
       features: ["Real-time device and gateway monitoring", "Device handover tracking across distributed nodes", "Live telemetry visualization and dashboards", "Backend APIs for device state and event management", "Scalable data ingestion for high-frequency updates"],
       links: [
-        { label: "GitHub Repository", url: "https://github.com/eimankhairol/project1" },
+        { label: "GitHub Repository", url: "https://github.com/BobFIV/PSU_CAPSTONE_F25" },
         { label: "oneM2M Feature", url: "https://www.onem2m.org/membership/executive-viewpoints/985-international-hackathon-psu2025-scalable-iot-mobility" },
         { label: "Hackster Article", url: "https://www.hackster.io/540749/onem2m-hackathon-team-pennstatenitannylions-2025-9935d2"}
       ]
