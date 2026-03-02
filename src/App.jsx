@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Github, Linkedin, Mail, ExternalLink, Code2, Sparkles, X, ChevronLeft, ChevronRight, Briefcase, FileText, Menu, ChevronDown, User } from 'lucide-react';
+import { Github, Linkedin, Mail, ExternalLink, Code2, Sparkles, X, ChevronLeft, ChevronRight, Briefcase, FileText, Menu, ChevronDown, User, GraduationCap } from 'lucide-react';
 
 export default function Portfolio() {
   const [hoveredProject, setHoveredProject] = useState(null);
@@ -246,7 +246,7 @@ export default function Portfolio() {
 
       <section id="education" className="pb-24 scroll-mt-20">
       <h2 className="text-4xl font-bold mb-12 flex items-center gap-3">
-        <span className="text-cyan-400">🎓</span>
+        <GraduationCap className="w-8 h-8 text-cyan-400" />
         Education
       </h2>
       <div className="relative">
