@@ -70,8 +70,8 @@ export default function Portfolio() {
       gradient: "from-purple-500 to-pink-500",
       images: [
         `${import.meta.env.BASE_URL}django-app-home-page.png`,
-        `${import.meta.env.BASE_URL}_GvV9L37g7K.blob.jpg`,
-        `${import.meta.env.BASE_URL}_UrU2R8hbGY.blob.jpg`
+        `${import.meta.env.BASE_URL}_GvV9L37g7K.jpg`,
+        `${import.meta.env.BASE_URL}_UrU2R8hbGY.jpg`
       ],
       detailedDescription: "This project focuses on designing and implementing a scalable backend system to manage real-time device handover and monitoring across distributed IoT components. The system processes high-frequency telemetry data from multiple devices, tracks handover events between gateways, and maintains consistent device state in near real time. A Django-based backend and web dashboard were developed to ingest, process, and visualize live metrics such as signal strength, connectivity status, and handover history. The architecture emphasizes reliability, efficient data flow, and system stability under frequent updates, enabling effective monitoring and debugging of device behavior in a distributed environment. The project was recognized with 2nd Place at the International oneM2M Hackathon for its real-time handover design and system architecture.",
       features: ["Real-time device and gateway monitoring", "Device handover tracking across distributed nodes", "Live telemetry visualization and dashboards", "Backend APIs for device state and event management", "Scalable data ingestion for high-frequency updates"],
