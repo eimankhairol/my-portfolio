@@ -1,5 +1,6 @@
-npm run dev
-npm run deploy
+# eimankhairol.com
 
-npm run build    # builds it
-npm run preview  # serves the built files at localhost:4173
+npm run dev      # work on it locally at localhost:5173
+npm run deploy   # build + publish to eimankhairol.com (gh-pages branch)
+
+All site text lives in src/data.js. Anything in [brackets] shows as a pencilled placeholder.
